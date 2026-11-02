@@ -163,8 +163,8 @@ DDI 与靶点信息提取自 DrugBank 官方全量 XML（`drugbank_all_full_data
 ```bibtex
 @mastersthesis{DTI_DDI_2026,
   title  = {低标注依赖的DTI与DDI可解释预测方法研究},
-  author = {Your Name},
-  school = {Your University},
+  author = {黎志琼},
+  school = {华南理工大学},
   year   = {2026}
 }
 ```

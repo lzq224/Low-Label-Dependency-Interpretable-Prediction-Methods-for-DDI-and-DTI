@@ -11,7 +11,7 @@ Due to the large size of certain datasets and result files, some files are hoste
 
 ## Overview / 项目简介
 
-本研究提出一种低标注依赖的 DTI 与 DDI 可解释预测框架。方法不依赖端到端监督训练，而是分别从"以药找靶"和"以靶点集合为中介"两条互补路径展开：
+本研究提出一种低标注依赖的 DTI 与 DDI 可解释预测框架。方法不依赖端到端监督训练，而是分别从"以药找靶"和"以靶点集合为中介"两条路径展开：
 
 - **DTI 预测**：基于分子描述符与 FAISS 向量索引进行相似药物检索与候选靶点补全。
 - **DDI 预测**：基于双药靶点组合的正 Z-score 累计结果对互作类型排序，并经 Softmax 归一化输出 Top-5 互作类型预测。
@@ -27,9 +27,9 @@ This work proposes an interpretable DTI/DDI prediction framework under low label
 |-- README.md
 |-- requirements.txt
 |-- dataREADME.txt
-|-- dti/                      # DTI 侧代码及中间文件
-|-- ddi/                      # DDI 侧代码及中间文件
-|-- results/                  # 论文关键结果 CSV（可直接核对 5.1 / 5.2 节指标）
+|-- dti/                      # DTI 代码及中间文件
+|-- ddi/                      # DDI 代码及中间文件
+|-- results/                  # 论文关键结果 CSV
 ```
 
 ---
@@ -155,9 +155,9 @@ The following files are hosted on the GitHub **Releases** page. Please download 
 | 文件名 File Name | 说明 Description |
 |---|---|
 | `drug_pairs_targets_interactions-未去重.txt`（已压缩） | 原始药物-药物相互作用数据 / Raw drug-drug interaction data |
-| `flat1-868736.xlsx` | 人工清洗记录文件 1 / Manual curation log 1 |
-| `flat2-868736.xlsx` | 人工清洗记录文件 2 / Manual curation log 2 |
-| `flat3-868737.xlsx` | 人工清洗记录文件 3 / Manual curation log 3 |
+| `flat1-868736.xlsx` | 人工清洗记录文件 1 |
+| `flat2-868736.xlsx` | 人工清洗记录文件 2 |
+| `flat3-868737.xlsx` | 人工清洗记录文件 3 |
 | `drug_pair_predictions.csv` | 性能验证结果 / Performance validation results |
 
 请前往仓库主页右侧边栏的 **Releases** 板块下载上述文件。

@@ -27,7 +27,6 @@ This work proposes an interpretable DTI/DDI prediction framework under low label
 |-- dti/                      # DTI 侧代码及中间文件
 |-- ddi/                      # DDI 侧代码及中间文件
 |-- results/                  # 论文关键结果 CSV（可直接核对 5.1 / 5.2 节指标）
-|-- checkpoints/              # 可选：预存模型权重 / 运行结果
 ```
 
 ---

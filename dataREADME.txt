@@ -1,13 +1,13 @@
 ================================================================================
-Data Sources and Reproduction Guide
-数据来源与复现指南
+Data Sources
+数据来源
 ================================================================================
 
 This document details the raw data sources used in this project and provides 
 instructions for reproducing the datasets. Due to file size limits or licensing 
 restrictions, some large files are not included directly in the repository.
 
-本文档详细列出了本项目使用的原始数据来源及复现方法。受限于文件大小或许可协议，
+本文档详细列出了本项目使用的原始数据来源。受限于文件大小或许可协议，
 部分大文件未直接包含在仓库中。
 
 --------------------------------------------------------------------------------

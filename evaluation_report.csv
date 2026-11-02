@@ -1,0 +1,10 @@
+metric,value
+Total Drug Pairs Evaluated,779651
+"Correct Predictions (Top-5, Overall)",526347
+Overall Accuracy@5,0.6751
+Predictable Pairs (Non-Empty Top-5),652031
+"Correct Predictions (Top-5, Predictable Subset)",526347
+Accuracy@5 (On Predictable Subset),0.8072
+Unpredictable Pairs (Empty Top-5),127620
+Coverage Rate,83.63%
+Unpredictable Rate,16.37%

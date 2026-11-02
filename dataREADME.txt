@@ -70,23 +70,3 @@ restrictions, some large files are not included directly in the repository.
   - Download: Please go to the "Releases" section on the right sidebar of the 
     repository homepage to download the asset `drug_pairs_targets_interactions-.zip`.
     下载：请前往仓库主页右侧栏的 "Releases" 板块下载资源包 `drug_pairs_targets_interactions-.zip`。
-
---------------------------------------------------------------------------------
-3. Reproduction Steps
-   复现步骤
---------------------------------------------------------------------------------
-
-1. Download `bindingdb_highconf_pKd_clean.csv` from Kaggle and place it in `data/raw_dti/`.
-   从 Kaggle 下载 DTI 数据并放入 `data/raw_dti/`。
-
-2. Register at DrugBank, download the XML, and place it in `data/raw_ddi/`.
-   注册 DrugBank，下载 XML 文件并放入 `data/raw_ddi/`。
-
-3. Run the ChEMBL scraping scripts to generate intermediate target sets.
-   运行 ChEMBL 抓取脚本生成中间靶点集合。
-
-4. Download the large interaction zip from Releases, extract it, and place the txt file in `data/raw_ddi/`.
-   从 Releases 下载大型相互作用压缩包，解压后将 txt 文件放入 `data/raw_ddi/`。
-
-5. Follow the "Quick Start" in README.md to run DTI and DDI pipelines.
-   按照 README.md 中的“快速开始”运行 DTI 和 DDI 流程。

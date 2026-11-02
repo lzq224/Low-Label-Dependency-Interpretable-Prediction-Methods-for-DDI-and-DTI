@@ -1,0 +1,26 @@
+# Core scientific stack
+numpy=1.26.4
+pandas=2.3.3
+scipy=1.10.1
+scikit-learn=1.8.0
+
+# Cheminformatics / molecular descriptors & fingerprints
+rdkit=2025.9.6
+
+# Vector indexing (CPU-only, matches thesis "no GPU required" setting)
+faiss-cpu=1.15.0
+
+# DrugBank full XML stream parsing
+lxml=4.5.2
+
+# ChEMBL37 REST API fetching (fetch_chembl37_by_api.py)
+requests=2.32.5
+
+# Parquet I/O (dti_merged_with_descriptors.parquet)
+pyarrow=25.0.0
+
+# Plotting (thesis 5.1 / 5.2 figures)
+matplotlib=3.10.8
+
+# Progress bars
+tqdm=4.67.3
